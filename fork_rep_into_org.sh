@@ -2,7 +2,7 @@
 
 # 作業ユーザ(admin)
 GITHUB_USER="t-hiro23"
-GITHUB_PASS=""
+GITHUB_PASS="${1:?}"
 
 # fork元のリポジトリ
 SRC_REP_OWNER="t-hiro23"

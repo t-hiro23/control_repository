@@ -2,7 +2,7 @@
 
 # 作業ユーザ(admin)
 GITHUB_USER="t-hiro23"
-GITHUB_PASS=""
+GITHUB_PASS="${1:?}"
 
 # リポジトリを作る先
 DST_ORG="t-hiro23-fork" 
